@@ -1,0 +1,9 @@
+case_label,problem_id,status,payload_view_count,verified_count,fail_soft_count,rendered_tokens,legacy_tokens,token_savings,token_savings_ratio,judge_score,judge_verdict,judge_confidence,repair_rounds,answer_est_tokens,overall_rubric_proxy_coverage,problem_formula_coverage,reference_formula_coverage,rubric_keyword_coverage,candidate_counts
+anchor_real_q1_hq,1,complete,13,13,0,166204,369437,203233,0.5501,9.2,excellent,0.97,5,3125,0.6577,1.0,0.1875,0.7857,"{""broad_fallback"": 1, ""minimal"": 12}"
+batch_p001,1,missing_answer_payload_judge,0,0,0,0,0,,,,,,0,0,0.0,0.0,0.0,0.0,{}
+batch_p002,2,missing_answer_payload_judge,0,0,0,0,0,,,,,,0,0,0.0,0.0,0.0,0.0,{}
+batch_p006,6,missing_answer_payload_judge,0,0,0,0,0,,,,,,0,0,0.0,,,0.0,{}
+batch_p008,8,missing_answer_payload_judge,0,0,0,0,0,,,,,,0,0,0.0,,,0.0,{}
+batch_p010,10,missing_answer_payload_judge,0,0,0,0,0,,,,,,0,0,0.0,0.0,0.0,0.0,{}
+batch_p013,13,missing_answer_payload_judge,0,0,0,0,0,,,,,,0,0,0.0,,,0.0,{}
+batch_p016,16,missing_answer_payload_judge,0,0,0,0,0,,,,,,0,0,0.0,0.0,0.0,0.0,{}

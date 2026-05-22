@@ -1,0 +1,612 @@
+[
+  {
+    "case": "real_q1_writer",
+    "role": "writer",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 0,
+    "selected_atom_count": 24,
+    "graph_atom_count": 25,
+    "rubric_atom_count": 24,
+    "rendered_token_cost": 901,
+    "full_graph_token_cost": 4989,
+    "token_savings": 4088,
+    "token_savings_ratio": 0.8194,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "present::required answer part": true,
+      "present::prompt formula": true,
+      "present::derivation completeness": true,
+      "absent::I'(g) approx eta I(g)": true,
+      "absent::A_w^{(k)}": true,
+      "absent::max_{Psi_f} P_s": true,
+      "absent::P_s^{(n)}": true,
+      "absent::M = <Psi_f|": true,
+      "absent::Phys. Rev.": true,
+      "absent::arXiv:1305": true,
+      "no_section::archive": true
+    },
+    "sections": [
+      "problem_kernel",
+      "task_contract"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 861,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 861,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 861,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 861,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 1839,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "minimal"
+  },
+  {
+    "case": "real_q1_verification",
+    "role": "verification",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 0,
+    "selected_atom_count": 25,
+    "graph_atom_count": 25,
+    "rubric_atom_count": 24,
+    "rendered_token_cost": 1895,
+    "full_graph_token_cost": 5006,
+    "token_savings": 3111,
+    "token_savings_ratio": 0.6215,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "present::Question:": true,
+      "present::required answer part": true,
+      "section::archive": true
+    },
+    "sections": [
+      "archive",
+      "problem_kernel",
+      "task_contract"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 1854,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 1854,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 1854,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 1854,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 1854,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "minimal"
+  },
+  {
+    "case": "generic_formula_writer",
+    "role": "writer",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 0,
+    "selected_atom_count": 12,
+    "graph_atom_count": 13,
+    "rubric_atom_count": 12,
+    "rendered_token_cost": 348,
+    "full_graph_token_cost": 1968,
+    "token_savings": 1620,
+    "token_savings_ratio": 0.8232,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "present::E_0 = 4\\pi^2/(2 M L^2)": true,
+      "present::required answer part": true,
+      "present::comparison completeness": true,
+      "present::derivation completeness": true,
+      "absent::weak-value Kraus operator": true,
+      "absent::A_w^{(k)}": true
+    },
+    "sections": [
+      "problem_kernel",
+      "task_contract"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 314,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 314,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 314,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 314,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 363,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "minimal"
+  },
+  {
+    "case": "speculative_filter_writer",
+    "role": "writer",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 0,
+    "selected_atom_count": 8,
+    "graph_atom_count": 9,
+    "rubric_atom_count": 4,
+    "rendered_token_cost": 185,
+    "full_graph_token_cost": 1197,
+    "token_savings": 1012,
+    "token_savings_ratio": 0.8454,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "allowed_absent::Speculative external mechanism": true,
+      "warning_present::Speculative external mechanism": true
+    },
+    "sections": [
+      "evidence",
+      "problem_kernel",
+      "task_contract",
+      "warnings"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 142,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 142,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 142,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 142,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 155,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "minimal"
+  },
+  {
+    "case": "support_repair_writer",
+    "role": "writer",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 1,
+    "selected_atom_count": 31,
+    "graph_atom_count": 43,
+    "rubric_atom_count": 0,
+    "rendered_token_cost": 386,
+    "full_graph_token_cost": 4860,
+    "token_savings": 4474,
+    "token_savings_ratio": 0.9206,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "atom::evidence:low_rank_support": true,
+      "repair_rounds>=1": true
+    },
+    "sections": [
+      "allowed_claims",
+      "evidence",
+      "problem_kernel",
+      "task_contract"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 322,
+        "repair_rounds": 1
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 442,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 442,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 442,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 442,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "repaired_minimal"
+  },
+  {
+    "case": "dependency_repair_deriver",
+    "role": "formal_deriver",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 1,
+    "selected_atom_count": 26,
+    "graph_atom_count": 38,
+    "rubric_atom_count": 0,
+    "rendered_token_cost": 350,
+    "full_graph_token_cost": 4416,
+    "token_savings": 4066,
+    "token_savings_ratio": 0.9207,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "atom::problem_fact:unit_dependency": true,
+      "repair_rounds>=1": true
+    },
+    "sections": [
+      "derivations",
+      "problem_kernel"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 307,
+        "repair_rounds": 1
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 451,
+        "repair_rounds": 1
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 451,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 451,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 451,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "repaired_minimal"
+  },
+  {
+    "case": "critic_signal_writer",
+    "role": "writer",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 0,
+    "selected_atom_count": 29,
+    "graph_atom_count": 38,
+    "rubric_atom_count": 0,
+    "rendered_token_cost": 361,
+    "full_graph_token_cost": 4362,
+    "token_savings": 4001,
+    "token_savings_ratio": 0.9172,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "section::critic_findings": true,
+      "atom::critic_finding:active_gap": true
+    },
+    "sections": [
+      "critic_findings",
+      "problem_kernel",
+      "task_contract"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 313,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 403,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 403,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 403,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 403,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "minimal"
+  },
+  {
+    "case": "writer_material_sufficiency",
+    "role": "writer",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 1,
+    "selected_atom_count": 29,
+    "graph_atom_count": 41,
+    "rubric_atom_count": 0,
+    "rendered_token_cost": 313,
+    "full_graph_token_cost": 4628,
+    "token_savings": 4315,
+    "token_savings_ratio": 0.9324,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "section::dependent_outputs": true,
+      "atom::claim:prior_task_output": true,
+      "repair_rounds>=1": true
+    },
+    "sections": [
+      "dependent_outputs",
+      "problem_kernel"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 275,
+        "repair_rounds": 1
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 383,
+        "repair_rounds": 1
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 383,
+        "repair_rounds": 1
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 383,
+        "repair_rounds": 1
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 383,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "repaired_minimal"
+  },
+  {
+    "case": "verification_risk_visibility",
+    "role": "verification",
+    "candidate": "minimal",
+    "payload_verified": true,
+    "repair_rounds": 0,
+    "selected_atom_count": 2,
+    "graph_atom_count": 2,
+    "rubric_atom_count": 0,
+    "rendered_token_cost": 90,
+    "full_graph_token_cost": 276,
+    "token_savings": 186,
+    "token_savings_ratio": 0.6739,
+    "gap_count": 0,
+    "gaps": [],
+    "checks_passed": true,
+    "check_details": {
+      "present::Unsupported risky claim": true,
+      "warning_present::Prohibited claim": true,
+      "normal_absent::Prohibited claim": true
+    },
+    "sections": [
+      "dependent_outputs",
+      "warnings"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": true,
+        "token_cost": 55,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "support_complete",
+        "passed": true,
+        "token_cost": 55,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": true,
+        "token_cost": 55,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": true,
+        "token_cost": 55,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": true,
+        "token_cost": 55,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "minimal"
+  },
+  {
+    "case": "fail_soft_uncovered_obligation",
+    "role": "writer",
+    "candidate": "broad_fallback",
+    "payload_verified": false,
+    "repair_rounds": 3,
+    "selected_atom_count": 2,
+    "graph_atom_count": 2,
+    "rubric_atom_count": 0,
+    "rendered_token_cost": 77,
+    "full_graph_token_cost": 262,
+    "token_savings": 185,
+    "token_savings_ratio": 0.7061,
+    "gap_count": 1,
+    "gaps": [
+      {
+        "gap_type": "missing_obligation_coverage",
+        "atom_id": "obligation:uncovered",
+        "target_id": "",
+        "message": "Obligation is present but no atom explicitly serves it: Explain an obligation that has no serving atom."
+      }
+    ],
+    "checks_passed": true,
+    "check_details": {
+      "verified_is::False": true,
+      "candidate::broad_fallback": true,
+      "gap::missing_obligation_coverage": true
+    },
+    "sections": [
+      "problem_kernel",
+      "task_contract"
+    ],
+    "candidate_history": [
+      {
+        "candidate": "minimal",
+        "passed": false,
+        "token_cost": 47,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "support_complete",
+        "passed": false,
+        "token_cost": 47,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "dependency_complete",
+        "passed": false,
+        "token_cost": 47,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "critic_safe",
+        "passed": false,
+        "token_cost": 47,
+        "repair_rounds": 0
+      },
+      {
+        "candidate": "broad_fallback",
+        "passed": false,
+        "token_cost": 47,
+        "repair_rounds": 0
+      }
+    ],
+    "selected_view_kind": "broad_fallback"
+  }
+]

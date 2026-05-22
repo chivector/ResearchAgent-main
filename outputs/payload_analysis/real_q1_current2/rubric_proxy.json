@@ -1,0 +1,197 @@
+{
+  "coverage": 0.058823529411764705,
+  "hit_count": 1,
+  "item_count": 17,
+  "groups": {
+    "Background protocol": {
+      "hit_count": 0,
+      "item_count": 3,
+      "coverage": 0.0,
+      "items": [
+        {
+          "item": "weak coupling Hamiltonian",
+          "present": false,
+          "needles": [
+            "h_int",
+            "interaction hamiltonian",
+            "delta(t",
+            "impulsive"
+          ]
+        },
+        {
+          "item": "postselected final state",
+          "present": false,
+          "needles": [
+            "postselected",
+            "psi_f"
+          ]
+        },
+        {
+          "item": "Kraus operator M",
+          "present": false,
+          "needles": [
+            "kraus",
+            "m =",
+            "hat{m}"
+          ]
+        }
+      ]
+    },
+    "Entanglement efficiency": {
+      "hit_count": 0,
+      "item_count": 4,
+      "coverage": 0.0,
+      "items": [
+        {
+          "item": "same weak value",
+          "present": false,
+          "needles": [
+            "same weak value",
+            "without reducing",
+            "fixed weak value"
+          ]
+        },
+        {
+          "item": "max Ps via Var(A)",
+          "present": false,
+          "needles": [
+            "var(a)",
+            "variance",
+            "max p_s"
+          ]
+        },
+        {
+          "item": "n^2 variance scaling",
+          "present": false,
+          "needles": [
+            "n^2",
+            "lambda_max",
+            "lambda_min"
+          ]
+        },
+        {
+          "item": "entangled initial/post state",
+          "present": false,
+          "needles": [
+            "entangled",
+            "lambda_max",
+            "lambda_min",
+            "psi_f"
+          ]
+        }
+      ]
+    },
+    "Fixed Ps alternative": {
+      "hit_count": 0,
+      "item_count": 3,
+      "coverage": 0.0,
+      "items": [
+        {
+          "item": "fixed postselection probability",
+          "present": false,
+          "needles": [
+            "fixed postselection probability",
+            "fixed p_s"
+          ]
+        },
+        {
+          "item": "sqrt((1-Ps)/Ps) weak value",
+          "present": false,
+          "needles": [
+            "sqrt",
+            "1-p_s",
+            "p_s",
+            "perp"
+          ]
+        },
+        {
+          "item": "max weak value formula",
+          "present": false,
+          "needles": [
+            "max",
+            "weak value",
+            "var(a)",
+            "p_s"
+          ]
+        }
+      ]
+    },
+    "Fisher information": {
+      "hit_count": 0,
+      "item_count": 5,
+      "coverage": 0.0,
+      "items": [
+        {
+          "item": "QFI definition",
+          "present": false,
+          "needles": [
+            "quantum fisher information",
+            "partial_g",
+            "i(g)"
+          ]
+        },
+        {
+          "item": "eta efficiency factor",
+          "present": false,
+          "needles": [
+            "eta",
+            "var(a)",
+            "a^2"
+          ]
+        },
+        {
+          "item": "I prime relation",
+          "present": false,
+          "needles": [
+            "i'(g)",
+            "eta",
+            "var(f)"
+          ]
+        },
+        {
+          "item": "dn postselections",
+          "present": false,
+          "needles": [
+            "d^n",
+            "a_w^{(k)}",
+            "phi_k"
+          ]
+        },
+        {
+          "item": "Cramer-Rao bound",
+          "present": false,
+          "needles": [
+            "cramer",
+            "1 / 2n",
+            "1/2n",
+            "sigma_z"
+          ]
+        }
+      ]
+    },
+    "Conclusion": {
+      "hit_count": 1,
+      "item_count": 2,
+      "coverage": 0.5,
+      "items": [
+        {
+          "item": "n-fold efficiency statement",
+          "present": false,
+          "needles": [
+            "factor of n",
+            "n p_s",
+            "postselection efficiency"
+          ]
+        },
+        {
+          "item": "Heisenberg scaling statement",
+          "present": true,
+          "needles": [
+            "heisenberg",
+            "standard quantum limit"
+          ]
+        }
+      ]
+    }
+  }
+}

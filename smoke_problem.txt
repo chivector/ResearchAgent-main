@@ -1,0 +1,1 @@
+Question: Explain briefly why periodic boundary conditions are often used in lattice physics.

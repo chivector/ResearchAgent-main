@@ -1,0 +1,112 @@
+{
+  "summary": {
+    "case_count": 8,
+    "complete_case_count": 1,
+    "missing_case_count": 7,
+    "avg_token_savings_ratio": 0.5501,
+    "avg_judge_score": 9.2,
+    "payload_view_count": 13,
+    "verified_count": 13,
+    "fail_soft_count": 0,
+    "verifier_pass_rate": 1.0,
+    "role_rows": [
+      {
+        "role": "writer",
+        "count": 4,
+        "rendered_tokens": 51090,
+        "legacy_tokens": 188140,
+        "token_savings_ratio": 0.7284469012437547,
+        "token_savings": 137050
+      },
+      {
+        "role": "formal_deriver",
+        "count": 8,
+        "rendered_tokens": 87153,
+        "legacy_tokens": 153920,
+        "token_savings_ratio": 0.4337772869022869,
+        "token_savings": 66767
+      },
+      {
+        "role": "verification",
+        "count": 1,
+        "rendered_tokens": 27961,
+        "legacy_tokens": 27377,
+        "token_savings_ratio": -0.021331774847499724,
+        "token_savings": -584
+      }
+    ],
+    "best_role": {
+      "role": "writer",
+      "count": 4,
+      "rendered_tokens": 51090,
+      "legacy_tokens": 188140,
+      "token_savings_ratio": 0.7284469012437547,
+      "token_savings": 137050
+    },
+    "reference_formula_coverage": 0.1875,
+    "problem_formula_coverage": 1.0,
+    "rubric_keyword_coverage": 0.7857142857142857
+  },
+  "improvements": [
+    {
+      "id": "formula_obligations",
+      "title": "Formula-level obligation compiler",
+      "impact": 9.3,
+      "effort": 4.2,
+      "confidence": 0.9,
+      "evidence": "Reference-formula coverage proxy is 18.8%.",
+      "deliverable": "Extract key equations into obligation atoms and make the verifier check explicit formula coverage.",
+      "next_step": "Add formula atoms in memory_graph.py and formula-slot checks in payload_compiler.py."
+    },
+    {
+      "id": "batch_generalization",
+      "title": "Multi-question generalization study",
+      "impact": 8.8,
+      "effort": 3.0,
+      "confidence": 0.86,
+      "evidence": "7 planned batch cases still need complete artifacts.",
+      "deliverable": "Run the 7-case default batch and report savings/quality by problem type.",
+      "next_step": "Run run_midterm_batch.py with --skip-existing, then rerun both analysis scripts."
+    },
+    {
+      "id": "verification_budget",
+      "title": "Verification payload split",
+      "impact": 7.6,
+      "effort": 4.8,
+      "confidence": 0.8,
+      "evidence": "Verification can compress less than writer because it carries broad audit context.",
+      "deliverable": "Separate answer-contract, evidence-audit, and risk-audit views with role-specific budgets.",
+      "next_step": "Add verification subroles and compare token cost against current single verification view."
+    },
+    {
+      "id": "repair_calibration",
+      "title": "Repair and candidate calibration",
+      "impact": 7.4,
+      "effort": 5.0,
+      "confidence": 0.76,
+      "evidence": "5 repair rounds and 1 broad fallback selections observed.",
+      "deliverable": "Use candidate history to tune role profiles and reduce avoidable repair/fallback calls.",
+      "next_step": "Log verifier gap types by role and introduce candidate-specific budget thresholds."
+    },
+    {
+      "id": "ablation_suite",
+      "title": "Ablation study for research claims",
+      "impact": 8.1,
+      "effort": 6.2,
+      "confidence": 0.7,
+      "evidence": "Current evidence compares legacy vs PayloadView, but not no-repair/no-license/no-formula variants.",
+      "deliverable": "Run full, PayloadView, no-repair, and no-license-gate variants on the same cases.",
+      "next_step": "Add an offline ablation harness before adding new model calls."
+    },
+    {
+      "id": "trace_story",
+      "title": "Traceable demo narrative",
+      "impact": 6.5,
+      "effort": 2.6,
+      "confidence": 0.84,
+      "evidence": "Existing payload reports contain selected atoms, repairs, and verifier gaps but need narrative packaging.",
+      "deliverable": "Create one slide showing problem -> memory graph -> payload view -> judge result.",
+      "next_step": "Export one exemplar PayloadView with selected atoms and repair history."
+    }
+  ]
+}

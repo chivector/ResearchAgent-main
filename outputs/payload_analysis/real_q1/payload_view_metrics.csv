@@ -1,0 +1,11 @@
+index,role,task_id,candidate_name,payload_verified,rendered_token_cost,legacy_token_cost,token_savings,token_savings_ratio,repair_rounds,selected_atom_count,gap_count
+1,formal_deriver,T1,support_complete,True,4557,10322,5765,0.5585,0,168,0
+2,formal_deriver,T1,minimal,True,6442,12796,6354,0.4966,0,155,0
+3,task_executor,T2,minimal,True,9495,17165,7670,0.4468,1,156,0
+4,task_executor,T3,minimal,True,9362,17040,7678,0.4506,1,155,0
+5,task_executor,T4,minimal,True,7827,15489,7662,0.4947,1,157,0
+6,writer,T5,minimal,True,13739,22075,8336,0.3776,0,159,0
+7,writer,writer,minimal,True,8523,28866,20343,0.7047,0,134,0
+8,writer,writer,minimal,True,5594,26970,21376,0.7926,0,134,0
+9,verification,verification,minimal,True,16940,17683,743,0.042,0,167,0
+10,writer,writer,minimal,True,7098,29526,22428,0.7596,0,133,0

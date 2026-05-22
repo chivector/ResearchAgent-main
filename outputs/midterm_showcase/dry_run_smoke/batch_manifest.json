@@ -1,0 +1,33 @@
+{
+  "dataset_file": "C:\\Users\\chizh\\Desktop\\ResearchAgent-main\\test.jsonl",
+  "problem_ids": [
+    1
+  ],
+  "mode": "fast",
+  "run_judge": false,
+  "rows": [
+    {
+      "problem_id": 1,
+      "status": "dry_run",
+      "run_command": [
+        "C:\\Users\\chizh\\anaconda3\\python.exe",
+        "C:\\Users\\chizh\\Desktop\\ResearchAgent-main\\run.py",
+        "--dataset-file",
+        "C:\\Users\\chizh\\Desktop\\ResearchAgent-main\\test.jsonl",
+        "--problem-id",
+        "1",
+        "--director-model",
+        "",
+        "--mode",
+        "fast",
+        "--output-file",
+        "C:\\Users\\chizh\\Desktop\\ResearchAgent-main\\outputs\\midterm_showcase\\dry_run_smoke\\cases\\problem_001\\answer.md",
+        "--log-file",
+        "C:\\Users\\chizh\\Desktop\\ResearchAgent-main\\outputs\\midterm_showcase\\dry_run_smoke\\cases\\problem_001\\run.log",
+        "--payload-report-file",
+        "C:\\Users\\chizh\\Desktop\\ResearchAgent-main\\outputs\\midterm_showcase\\dry_run_smoke\\cases\\problem_001\\payload_report.json"
+      ],
+      "judge_command": []
+    }
+  ]
+}

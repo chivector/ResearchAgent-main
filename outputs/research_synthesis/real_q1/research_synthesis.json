@@ -1,0 +1,124 @@
+{
+  "runs": [
+    {
+      "label": "previous",
+      "payload_views": 11,
+      "verified": 11,
+      "fail_soft": 0,
+      "rendered_tokens": 121909,
+      "legacy_tokens": 217199,
+      "token_savings": 95290,
+      "token_savings_ratio": 0.4387,
+      "judge_score": 9.2,
+      "judge_verdict": "excellent",
+      "judge_confidence": 0.98,
+      "repair_rounds": 0,
+      "candidate_counts": {
+        "broad_fallback": 4,
+        "dependency_complete": 2,
+        "minimal": 5
+      },
+      "answer_est_tokens": 2410,
+      "answer_chars": 9638
+    },
+    {
+      "label": "current",
+      "payload_views": 13,
+      "verified": 13,
+      "fail_soft": 0,
+      "rendered_tokens": 166204,
+      "legacy_tokens": 369437,
+      "token_savings": 203233,
+      "token_savings_ratio": 0.5501,
+      "judge_score": 9.2,
+      "judge_verdict": "excellent",
+      "judge_confidence": 0.97,
+      "repair_rounds": 5,
+      "candidate_counts": {
+        "broad_fallback": 1,
+        "minimal": 12
+      },
+      "answer_est_tokens": 3125,
+      "answer_chars": 12499
+    }
+  ],
+  "role_rows": [
+    {
+      "run": "previous",
+      "role": "formal_deriver",
+      "count": 4,
+      "rendered": 46320,
+      "legacy": 51914,
+      "savings": 5594,
+      "savings_ratio": 0.1077551334900027,
+      "verified": 4,
+      "fail_soft": 0
+    },
+    {
+      "run": "previous",
+      "role": "task_executor",
+      "count": 2,
+      "rendered": 21380,
+      "legacy": 35587,
+      "savings": 14207,
+      "savings_ratio": 0.3992188158597241,
+      "verified": 2,
+      "fail_soft": 0
+    },
+    {
+      "run": "previous",
+      "role": "verification",
+      "count": 1,
+      "rendered": 16852,
+      "legacy": 18018,
+      "savings": 1166,
+      "savings_ratio": 0.06471306471306472,
+      "verified": 1,
+      "fail_soft": 0
+    },
+    {
+      "run": "previous",
+      "role": "writer",
+      "count": 4,
+      "rendered": 37357,
+      "legacy": 111680,
+      "savings": 74323,
+      "savings_ratio": 0.6654996418338109,
+      "verified": 4,
+      "fail_soft": 0
+    },
+    {
+      "run": "current",
+      "role": "formal_deriver",
+      "count": 8,
+      "rendered": 87153,
+      "legacy": 153920,
+      "savings": 66767,
+      "savings_ratio": 0.4337772869022869,
+      "verified": 8,
+      "fail_soft": 0
+    },
+    {
+      "run": "current",
+      "role": "verification",
+      "count": 1,
+      "rendered": 27961,
+      "legacy": 27377,
+      "savings": -584,
+      "savings_ratio": -0.021331774847499724,
+      "verified": 1,
+      "fail_soft": 0
+    },
+    {
+      "run": "current",
+      "role": "writer",
+      "count": 4,
+      "rendered": 51090,
+      "legacy": 188140,
+      "savings": 137050,
+      "savings_ratio": 0.7284469012437547,
+      "verified": 4,
+      "fail_soft": 0
+    }
+  ]
+}

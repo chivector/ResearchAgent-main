@@ -1,0 +1,1180 @@
+{
+  "rows": [
+    {
+      "case_label": "anchor_real_q1_hq",
+      "problem_id": 1,
+      "status": "complete",
+      "payload_view_count": 13,
+      "verified_count": 13,
+      "fail_soft_count": 0,
+      "rendered_tokens": 166204,
+      "legacy_tokens": 369437,
+      "token_savings": 203233,
+      "token_savings_ratio": 0.5501,
+      "judge_score": 9.2,
+      "judge_verdict": "excellent",
+      "judge_confidence": 0.97,
+      "repair_rounds": 5,
+      "candidate_counts": {
+        "broad_fallback": 1,
+        "minimal": 12
+      },
+      "answer_est_tokens": 3125,
+      "coverage": {
+        "coverage": 0.6577380952380952,
+        "groups": {
+          "problem_formula_coverage": {
+            "hit_count": 3,
+            "item_count": 3,
+            "coverage": 1.0,
+            "items": [
+              {
+                "item": "\\\\langle \\\\hat{R} \\\\rangle\\_{|\\\\phi'\\\\rangle} \\",
+                "present": true
+              },
+              {
+                "item": "\\\\sqrt{P_s} |\\\\phi'\\\\rangle\\",
+                "present": true
+              },
+              {
+                "item": "|\\\\Phi_g\\\\rangle = \\\\exp(-ig \\\\hat{A} \\\\otimes \\\\hat{F}) |\\\\Psi_i\\\\rangle |\\\\phi\\\\rangle \\\\",
+                "present": true
+              }
+            ]
+          },
+          "reference_formula_coverage": {
+            "hit_count": 3,
+            "item_count": 16,
+            "coverage": 0.1875,
+            "items": [
+              {
+                "item": "|\\\\Psi_f\\\\rangle\\",
+                "present": false
+              },
+              {
+                "item": "|\\\\phi'\\\\rangle = \\\\hat{M}|\\\\phi\\\\rangle / |\\\\hat{M}|\\\\phi\\\\rangle|\\",
+                "present": false
+              },
+              {
+                "item": "\\\\hat{M} = \\\\langle \\\\Psi_f | \\\\exp(-ig \\\\hat{A} \\\\otimes \\\\hat{F}) |\\\\Psi_i\\\\rangle\\",
+                "present": false
+              },
+              {
+                "item": "\\\\delta(t - t_0)\\",
+                "present": false
+              },
+              {
+                "item": "I(g)\\",
+                "present": true
+              },
+              {
+                "item": "\\\\sqrt{P_s} |\\\\phi'\\\\rangle\\",
+                "present": true
+              },
+              {
+                "item": "\\\\eta = \\\\text{Var}(\\\\hat{A}){|\\\\Psi_i\\\\rangle} / \\\\langle \\\\hat{A}^2 \\\\rangle{|\\\\Psi_i\\\\rangle}\\",
+                "present": false
+              },
+              {
+                "item": "g|A_w|\\\\text{Var}(\\\\hat{F})^{1/2} \\\\ll 1\\",
+                "present": false
+              },
+              {
+                "item": "\\\\langle \\\\hat{F} \\\\rangle\\_{|\\\\phi\\\\rangle} = 0\\",
+                "present": false
+              },
+              {
+                "item": "P_s \\\\ll 1\\",
+                "present": false
+              },
+              {
+                "item": "|A_w|\\",
+                "present": true
+              },
+              {
+                "item": "\\\\langle \\\\hat{A} \\\\rangle\\_{|\\\\Psi_i\\\\rangle} = 0\\",
+                "present": false
+              },
+              {
+                "item": "|gA_w|^2 \\\\text{Var}(\\\\hat{F}) \\\\ll 1\\",
+                "present": false
+              },
+              {
+                "item": "\\\\hat{F} = \\\\hat{a} = \\\\sigma_z\\",
+                "present": false
+              },
+              {
+                "item": "\\\\eta = 1\\",
+                "present": false
+              },
+              {
+                "item": "\\\\text{Var}(\\\\hat{F}) = 1\\",
+                "present": false
+              }
+            ]
+          },
+          "rubric_keyword_coverage": {
+            "hit_count": 11,
+            "item_count": 14,
+            "coverage": 0.7857142857142857,
+            "items": [
+              {
+                "item": "rangle",
+                "present": true
+              },
+              {
+                "item": "psi_i",
+                "present": true
+              },
+              {
+                "item": "langle",
+                "present": true
+              },
+              {
+                "item": "points",
+                "present": false
+              },
+              {
+                "item": "information",
+                "present": true
+              },
+              {
+                "item": "value",
+                "present": true
+              },
+              {
+                "item": "meter",
+                "present": true
+              },
+              {
+                "item": "fisher",
+                "present": true
+              },
+              {
+                "item": "right",
+                "present": false
+              },
+              {
+                "item": "ancilla",
+                "present": true
+              },
+              {
+                "item": "probability",
+                "present": true
+              },
+              {
+                "item": "postselection",
+                "present": true
+              },
+              {
+                "item": "follows",
+                "present": true
+              },
+              {
+                "item": "psi_f",
+                "present": false
+              }
+            ]
+          }
+        }
+      },
+      "overall_rubric_proxy_coverage": 0.6577380952380952,
+      "problem_formula_coverage": 1.0,
+      "reference_formula_coverage": 0.1875,
+      "rubric_keyword_coverage": 0.7857142857142857
+    },
+    {
+      "case_label": "batch_p001",
+      "problem_id": 1,
+      "status": "missing_answer_payload_judge",
+      "payload_view_count": 0,
+      "verified_count": 0,
+      "fail_soft_count": 0,
+      "rendered_tokens": 0,
+      "legacy_tokens": 0,
+      "token_savings": null,
+      "token_savings_ratio": null,
+      "judge_score": null,
+      "judge_verdict": "",
+      "judge_confidence": null,
+      "repair_rounds": 0,
+      "candidate_counts": {},
+      "answer_est_tokens": 0,
+      "coverage": {
+        "coverage": 0.0,
+        "groups": {
+          "problem_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 3,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "\\\\langle \\\\hat{R} \\\\rangle\\_{|\\\\phi'\\\\rangle} \\",
+                "present": false
+              },
+              {
+                "item": "\\\\sqrt{P_s} |\\\\phi'\\\\rangle\\",
+                "present": false
+              },
+              {
+                "item": "|\\\\Phi_g\\\\rangle = \\\\exp(-ig \\\\hat{A} \\\\otimes \\\\hat{F}) |\\\\Psi_i\\\\rangle |\\\\phi\\\\rangle \\\\",
+                "present": false
+              }
+            ]
+          },
+          "reference_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 16,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "|\\\\Psi_f\\\\rangle\\",
+                "present": false
+              },
+              {
+                "item": "|\\\\phi'\\\\rangle = \\\\hat{M}|\\\\phi\\\\rangle / |\\\\hat{M}|\\\\phi\\\\rangle|\\",
+                "present": false
+              },
+              {
+                "item": "\\\\hat{M} = \\\\langle \\\\Psi_f | \\\\exp(-ig \\\\hat{A} \\\\otimes \\\\hat{F}) |\\\\Psi_i\\\\rangle\\",
+                "present": false
+              },
+              {
+                "item": "\\\\delta(t - t_0)\\",
+                "present": false
+              },
+              {
+                "item": "I(g)\\",
+                "present": false
+              },
+              {
+                "item": "\\\\sqrt{P_s} |\\\\phi'\\\\rangle\\",
+                "present": false
+              },
+              {
+                "item": "\\\\eta = \\\\text{Var}(\\\\hat{A}){|\\\\Psi_i\\\\rangle} / \\\\langle \\\\hat{A}^2 \\\\rangle{|\\\\Psi_i\\\\rangle}\\",
+                "present": false
+              },
+              {
+                "item": "g|A_w|\\\\text{Var}(\\\\hat{F})^{1/2} \\\\ll 1\\",
+                "present": false
+              },
+              {
+                "item": "\\\\langle \\\\hat{F} \\\\rangle\\_{|\\\\phi\\\\rangle} = 0\\",
+                "present": false
+              },
+              {
+                "item": "P_s \\\\ll 1\\",
+                "present": false
+              },
+              {
+                "item": "|A_w|\\",
+                "present": false
+              },
+              {
+                "item": "\\\\langle \\\\hat{A} \\\\rangle\\_{|\\\\Psi_i\\\\rangle} = 0\\",
+                "present": false
+              },
+              {
+                "item": "|gA_w|^2 \\\\text{Var}(\\\\hat{F}) \\\\ll 1\\",
+                "present": false
+              },
+              {
+                "item": "\\\\hat{F} = \\\\hat{a} = \\\\sigma_z\\",
+                "present": false
+              },
+              {
+                "item": "\\\\eta = 1\\",
+                "present": false
+              },
+              {
+                "item": "\\\\text{Var}(\\\\hat{F}) = 1\\",
+                "present": false
+              }
+            ]
+          },
+          "rubric_keyword_coverage": {
+            "hit_count": 0,
+            "item_count": 14,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "rangle",
+                "present": false
+              },
+              {
+                "item": "psi_i",
+                "present": false
+              },
+              {
+                "item": "langle",
+                "present": false
+              },
+              {
+                "item": "points",
+                "present": false
+              },
+              {
+                "item": "information",
+                "present": false
+              },
+              {
+                "item": "value",
+                "present": false
+              },
+              {
+                "item": "meter",
+                "present": false
+              },
+              {
+                "item": "fisher",
+                "present": false
+              },
+              {
+                "item": "right",
+                "present": false
+              },
+              {
+                "item": "ancilla",
+                "present": false
+              },
+              {
+                "item": "probability",
+                "present": false
+              },
+              {
+                "item": "postselection",
+                "present": false
+              },
+              {
+                "item": "follows",
+                "present": false
+              },
+              {
+                "item": "psi_f",
+                "present": false
+              }
+            ]
+          }
+        }
+      },
+      "overall_rubric_proxy_coverage": 0.0,
+      "problem_formula_coverage": 0.0,
+      "reference_formula_coverage": 0.0,
+      "rubric_keyword_coverage": 0.0
+    },
+    {
+      "case_label": "batch_p002",
+      "problem_id": 2,
+      "status": "missing_answer_payload_judge",
+      "payload_view_count": 0,
+      "verified_count": 0,
+      "fail_soft_count": 0,
+      "rendered_tokens": 0,
+      "legacy_tokens": 0,
+      "token_savings": null,
+      "token_savings_ratio": null,
+      "judge_score": null,
+      "judge_verdict": "",
+      "judge_confidence": null,
+      "repair_rounds": 0,
+      "candidate_counts": {},
+      "answer_est_tokens": 0,
+      "coverage": {
+        "coverage": 0.0,
+        "groups": {
+          "problem_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 10,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "\\\\alpha = (x,y,z)\\",
+                "present": false
+              },
+              {
+                "item": "e_\\alpha",
+                "present": false
+              },
+              {
+                "item": "n\\_{r,\\\\alpha}\\",
+                "present": false
+              },
+              {
+                "item": "n^\\\\dagger\\_{r,\\\\alpha}\\",
+                "present": false
+              },
+              {
+                "item": "\\\\alpha = 1,2,3,4\\",
+                "present": false
+              },
+              {
+                "item": "N\\_{r}=(n\\_{r,\\\\uparrow},n\\_{r,\\\\downarrow}, p\\_{r,\\\\uparrow}, p\\_{r,\\\\downarrow})^T \\",
+                "present": false
+              },
+              {
+                "item": "M_{\\rm phy}",
+                "present": false
+              },
+              {
+                "item": "L_{\\rm phy}",
+                "present": false
+              },
+              {
+                "item": "\\hbar = c=1",
+                "present": false
+              },
+              {
+                "item": "L_{\\rm phy}=3.4",
+                "present": false
+              }
+            ]
+          },
+          "reference_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 6,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "S_1=\\\\frac{1}{\\\\sqrt{2}}\\\\big(n\\_{r,\\\\uparrow}p\\_{r,\\\\downarrow} - n\\_{r,\\\\downarrow}p\\_{r,\\\\uparrow}\\\\big)\\",
+                "present": false
+              },
+              {
+                "item": "S_2=\\\\frac{1}{\\\\sqrt{2}}\\\\big(n\\_{r,\\\\uparrow}n\\_{r,\\\\downarrow} - p\\_{r,\\\\uparrow}p\\_{r,\\\\downarrow}\\\\big)\\",
+                "present": false
+              },
+              {
+                "item": "S_3=-\\\\frac{i}{\\\\sqrt{2}}(p\\_{r,\\\\uparrow}p\\_{r,\\\\downarrow}+n\\_{r,\\\\uparrow}p\\_{n,\\\\downarrow})\\",
+                "present": false
+              },
+              {
+                "item": "E_0=\\\\frac{4\\\\pi^2}{2\\\\times 1638 \\\\times (3.4/197)^2}=40.5\\\\",
+                "present": false
+              },
+              {
+                "item": "\\\\\\\\frac{1}{E-H}\\\\\\\\\\",
+                "present": false
+              },
+              {
+                "item": "|\\\\\\\\vec{\\\\\\\\delta}, \\\\\\\\vec{q}\\\\\\\\rangle =\\\\\\\\frac{1}{\\\\\\\\sqrt{L^3}}\\\\\\\\sum\\\\_{\\\\\\\\vec{r}} n^\\\\\\\\dagger \\\\_{\\\\\\\\vec{r},\\\\\\\\uparrow} n^\\\\\\\\dagger \\\\_{\\\\\\\\vec{r}+\\\\\\\\vec{\\\\\\\\delta},\\\\\\\\downarrow}e^{i(2\\\\\\\\pi/L)\\\\\\\\vec{q}\\\\\\\\cdot \\\\\\\\vec{r}}|0\\\\\\\\rangle\\\\\\\\\\",
+                "present": false
+              }
+            ]
+          },
+          "rubric_keyword_coverage": {
+            "hit_count": 0,
+            "item_count": 14,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "points",
+                "present": false
+              },
+              {
+                "item": "energy",
+                "present": false
+              },
+              {
+                "item": "uparrow",
+                "present": false
+              },
+              {
+                "item": "downarrow",
+                "present": false
+              },
+              {
+                "item": "two-body",
+                "present": false
+              },
+              {
+                "item": "finite",
+                "present": false
+              },
+              {
+                "item": "lattice",
+                "present": false
+              },
+              {
+                "item": "spin-singlet",
+                "present": false
+              },
+              {
+                "item": "value",
+                "present": false
+              },
+              {
+                "item": "single",
+                "present": false
+              },
+              {
+                "item": "particle",
+                "present": false
+              },
+              {
+                "item": "input",
+                "present": false
+              },
+              {
+                "item": "times",
+                "present": false
+              },
+              {
+                "item": "write",
+                "present": false
+              }
+            ]
+          }
+        }
+      },
+      "overall_rubric_proxy_coverage": 0.0,
+      "problem_formula_coverage": 0.0,
+      "reference_formula_coverage": 0.0,
+      "rubric_keyword_coverage": 0.0
+    },
+    {
+      "case_label": "batch_p006",
+      "problem_id": 6,
+      "status": "missing_answer_payload_judge",
+      "payload_view_count": 0,
+      "verified_count": 0,
+      "fail_soft_count": 0,
+      "rendered_tokens": 0,
+      "legacy_tokens": 0,
+      "token_savings": null,
+      "token_savings_ratio": null,
+      "judge_score": null,
+      "judge_verdict": "",
+      "judge_confidence": null,
+      "repair_rounds": 0,
+      "candidate_counts": {},
+      "answer_est_tokens": 0,
+      "coverage": {
+        "coverage": 0.0,
+        "groups": {
+          "problem_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 0,
+            "coverage": null,
+            "items": []
+          },
+          "reference_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 0,
+            "coverage": null,
+            "items": []
+          },
+          "rubric_keyword_coverage": {
+            "hit_count": 0,
+            "item_count": 14,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "points",
+                "present": false
+              },
+              {
+                "item": "solution",
+                "present": false
+              },
+              {
+                "item": "mention",
+                "present": false
+              },
+              {
+                "item": "number",
+                "present": false
+              },
+              {
+                "item": "within",
+                "present": false
+              },
+              {
+                "item": "energies",
+                "present": false
+              },
+              {
+                "item": "greater",
+                "present": false
+              },
+              {
+                "item": "events",
+                "present": false
+              },
+              {
+                "item": "seconds",
+                "present": false
+              },
+              {
+                "item": "neutrinos",
+                "present": false
+              },
+              {
+                "item": "allow",
+                "present": false
+              },
+              {
+                "item": "search",
+                "present": false
+              },
+              {
+                "item": "supernovae",
+                "present": false
+              },
+              {
+                "item": "opposite",
+                "present": false
+              }
+            ]
+          }
+        }
+      },
+      "overall_rubric_proxy_coverage": 0.0,
+      "problem_formula_coverage": null,
+      "reference_formula_coverage": null,
+      "rubric_keyword_coverage": 0.0
+    },
+    {
+      "case_label": "batch_p008",
+      "problem_id": 8,
+      "status": "missing_answer_payload_judge",
+      "payload_view_count": 0,
+      "verified_count": 0,
+      "fail_soft_count": 0,
+      "rendered_tokens": 0,
+      "legacy_tokens": 0,
+      "token_savings": null,
+      "token_savings_ratio": null,
+      "judge_score": null,
+      "judge_verdict": "",
+      "judge_confidence": null,
+      "repair_rounds": 0,
+      "candidate_counts": {},
+      "answer_est_tokens": 0,
+      "coverage": {
+        "coverage": 0.0,
+        "groups": {
+          "problem_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 0,
+            "coverage": null,
+            "items": []
+          },
+          "reference_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 0,
+            "coverage": null,
+            "items": []
+          },
+          "rubric_keyword_coverage": {
+            "hit_count": 0,
+            "item_count": 14,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "points",
+                "present": false
+              },
+              {
+                "item": "mentions",
+                "present": false
+              },
+              {
+                "item": "emulators",
+                "present": false
+              },
+              {
+                "item": "training",
+                "present": false
+              },
+              {
+                "item": "boltzmann",
+                "present": false
+              },
+              {
+                "item": "hamiltonian",
+                "present": false
+              },
+              {
+                "item": "monte",
+                "present": false
+              },
+              {
+                "item": "carlo",
+                "present": false
+              },
+              {
+                "item": "require",
+                "present": false
+              },
+              {
+                "item": "never",
+                "present": false
+              },
+              {
+                "item": "preprocessing",
+                "present": false
+              },
+              {
+                "item": "logarithm",
+                "present": false
+              },
+              {
+                "item": "sampling",
+                "present": false
+              },
+              {
+                "item": "latin",
+                "present": false
+              }
+            ]
+          }
+        }
+      },
+      "overall_rubric_proxy_coverage": 0.0,
+      "problem_formula_coverage": null,
+      "reference_formula_coverage": null,
+      "rubric_keyword_coverage": 0.0
+    },
+    {
+      "case_label": "batch_p010",
+      "problem_id": 10,
+      "status": "missing_answer_payload_judge",
+      "payload_view_count": 0,
+      "verified_count": 0,
+      "fail_soft_count": 0,
+      "rendered_tokens": 0,
+      "legacy_tokens": 0,
+      "token_savings": null,
+      "token_savings_ratio": null,
+      "judge_score": null,
+      "judge_verdict": "",
+      "judge_confidence": null,
+      "repair_rounds": 0,
+      "candidate_counts": {},
+      "answer_est_tokens": 0,
+      "coverage": {
+        "coverage": 0.0,
+        "groups": {
+          "problem_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 2,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "H=\\\\omega_p a^\\\\dagger a+\\\\int d\\\\omega\\\\ \\\\Delta\\_\\\\omega b\\_\\\\omega^\\\\dagger b\\_\\\\omega+\\\\beta\\\\int d\\\\omega(b\\_\\\\omega+b\\_\\\\omega^\\\\dagger)(\\\\epsilon S_z-g_p (a+a^\\\\dagger)\\\\sin(\\\\Delta\\_\\\\omega\\\\tau)/\\\\sqrt{2})\\",
+                "present": false
+              },
+              {
+                "item": "b\\_\\\\omega\\",
+                "present": false
+              }
+            ]
+          },
+          "reference_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 9,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "\\\\dot{x}\\_\\\\omega=\\\\Delta\\_\\\\omega p\\_\\\\omega\\",
+                "present": false
+              },
+              {
+                "item": "\\\\dot{p}\\_\\\\omega=-\\\\Delta\\_\\\\omega x\\_\\\\omega-\\\\sqrt{2}\\\\beta(\\\\epsilon S_z-g_p x\\\\sin\\\\Delta\\_\\\\omega\\\\tau)\\",
+                "present": false
+              },
+              {
+                "item": "\\\\dot{S}\\_z=0\\",
+                "present": false
+              },
+              {
+                "item": "\\\\dot{x}=\\\\omega_p p\\",
+                "present": false
+              },
+              {
+                "item": "\\\\dot{p}=-\\\\omega_p x-\\\\sqrt{2}\\\\beta g_p\\\\int d\\\\Delta\\_\\\\omega\\\\ x\\_\\\\omega\\\\sin\\\\Delta\\_\\\\omega\\\\tau\\",
+                "present": false
+              },
+              {
+                "item": "F(t)=\\\\int d\\\\Delta\\_\\\\omega\\\\ x\\_{\\\\omega0}\\\\cos\\\\Delta\\_\\\\omega t\\",
+                "present": false
+              },
+              {
+                "item": "g=\\\\beta^2g_p\\\\epsilon\\",
+                "present": false
+              },
+              {
+                "item": "H=\\\\frac{1}{2}(x^2+p^2)+gxS_z\\",
+                "present": false
+              },
+              {
+                "item": "-\\\\beta/\\\\sqrt{2}\\\\epsilon S_z\\",
+                "present": false
+              }
+            ]
+          },
+          "rubric_keyword_coverage": {
+            "hit_count": 0,
+            "item_count": 14,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "omega",
+                "present": false
+              },
+              {
+                "item": "delta",
+                "present": false
+              },
+              {
+                "item": "points",
+                "present": false
+              },
+              {
+                "item": "correctly",
+                "present": false
+              },
+              {
+                "item": "epsilon",
+                "present": false
+              },
+              {
+                "item": "omega_p",
+                "present": false
+              },
+              {
+                "item": "shows",
+                "present": false
+              },
+              {
+                "item": "heisenberg",
+                "present": false
+              },
+              {
+                "item": "hamiltonian",
+                "present": false
+              },
+              {
+                "item": "omega-",
+                "present": false
+              },
+              {
+                "item": "s_z-g_p",
+                "present": false
+              },
+              {
+                "item": "equation",
+                "present": false
+              },
+              {
+                "item": "result",
+                "present": false
+              },
+              {
+                "item": "effective",
+                "present": false
+              }
+            ]
+          }
+        }
+      },
+      "overall_rubric_proxy_coverage": 0.0,
+      "problem_formula_coverage": 0.0,
+      "reference_formula_coverage": 0.0,
+      "rubric_keyword_coverage": 0.0
+    },
+    {
+      "case_label": "batch_p013",
+      "problem_id": 13,
+      "status": "missing_answer_payload_judge",
+      "payload_view_count": 0,
+      "verified_count": 0,
+      "fail_soft_count": 0,
+      "rendered_tokens": 0,
+      "legacy_tokens": 0,
+      "token_savings": null,
+      "token_savings_ratio": null,
+      "judge_score": null,
+      "judge_verdict": "",
+      "judge_confidence": null,
+      "repair_rounds": 0,
+      "candidate_counts": {},
+      "answer_est_tokens": 0,
+      "coverage": {
+        "coverage": 0.0,
+        "groups": {
+          "problem_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 0,
+            "coverage": null,
+            "items": []
+          },
+          "reference_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 0,
+            "coverage": null,
+            "items": []
+          },
+          "rubric_keyword_coverage": {
+            "hit_count": 0,
+            "item_count": 14,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "points",
+                "present": false
+              },
+              {
+                "item": "contact",
+                "present": false
+              },
+              {
+                "item": "surface",
+                "present": false
+              },
+              {
+                "item": "exposure",
+                "present": false
+              },
+              {
+                "item": "front",
+                "present": false
+              },
+              {
+                "item": "mention",
+                "present": false
+              },
+              {
+                "item": "lithography",
+                "present": false
+              },
+              {
+                "item": "finger",
+                "present": false
+              },
+              {
+                "item": "design",
+                "present": false
+              },
+              {
+                "item": "option",
+                "present": false
+              },
+              {
+                "item": "resist",
+                "present": false
+              },
+              {
+                "item": "develop",
+                "present": false
+              },
+              {
+                "item": "deposition",
+                "present": false
+              },
+              {
+                "item": "wafer",
+                "present": false
+              }
+            ]
+          }
+        }
+      },
+      "overall_rubric_proxy_coverage": 0.0,
+      "problem_formula_coverage": null,
+      "reference_formula_coverage": null,
+      "rubric_keyword_coverage": 0.0
+    },
+    {
+      "case_label": "batch_p016",
+      "problem_id": 16,
+      "status": "missing_answer_payload_judge",
+      "payload_view_count": 0,
+      "verified_count": 0,
+      "fail_soft_count": 0,
+      "rendered_tokens": 0,
+      "legacy_tokens": 0,
+      "token_savings": null,
+      "token_savings_ratio": null,
+      "judge_score": null,
+      "judge_verdict": "",
+      "judge_confidence": null,
+      "repair_rounds": 0,
+      "candidate_counts": {},
+      "answer_est_tokens": 0,
+      "coverage": {
+        "coverage": 0.0,
+        "groups": {
+          "problem_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 1,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "x = \\pm b",
+                "present": false
+              }
+            ]
+          },
+          "reference_formula_coverage": {
+            "hit_count": 0,
+            "item_count": 12,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "\\\\Delta' a = 2ka\\\\frac{e^{-2ka}-2ka+1-e^{-2kb}(e^{2ka}+2ka+1)}{e^{-2ka}+2ka-1+e^{-2kb}(e^{2ka}-2ka-1)}",
+                "present": false
+              },
+              {
+                "item": "B\\_{1x}(x)",
+                "present": false
+              },
+              {
+                "item": "B\\_{1x}(x) = \\\\begin{cases}Ce^{-kx}+De^{kx},&amp;x\\\\in(-b,-a)\\\\\\\\Ae^{-kx}+Be^{kx},&amp;x\\\\in(-a,0)\\\\\\\\Ae^{kx}+Be^{-kx},&amp;x\\\\in(0,a)\\\\\\\\Ce^{kx}+De^{-kx},&amp;x\\\\in(a,b)\\\\end{cases}",
+                "present": false
+              },
+              {
+                "item": "\\\\lim\\_{b\\\\rightarrow\\\\infty}\\\\Delta' a = 2ka\\\\frac{e^{-2ka}-2ka+1}{e^{-2ka}+2ka-1}",
+                "present": false
+              },
+              {
+                "item": "\\\\Delta' \\\\equiv\\\\frac{1}{B\\_{x}(0^{+})}\\\\frac{\\\\partial B\\_{1x}}{\\\\partial x}|\\_{0^{+}} - \\\\frac{1}{B\\_{x}(0^{-})}\\\\frac{\\\\partial B\\_{1x}}{\\\\partial x}|\\_{0^{-}}",
+                "present": false
+              },
+              {
+                "item": "B = \\\\left(1+\\\\frac{e^{2k(a-b)}}{2ka}\\\\right)D",
+                "present": false
+              },
+              {
+                "item": "A = \\\\left(\\\\frac{e^{2k(b-a)}-1}{2ka}-1\\\\right)e^{-2kb}D",
+                "present": false
+              },
+              {
+                "item": "\\\\frac{\\\\partial B\\_{1x}}{\\\\partial x}",
+                "present": false
+              },
+              {
+                "item": "\\\\frac{\\\\partial}{\\\\partial x}\\\\left(\\\\frac{B\\_{1x}}{B\\_{0y}}\\\\right)\\\\biggr|\\_{\\\\pm a^{-} = \\\\frac{\\\\partial}{\\\\partial x}\\\\left(\\\\frac{B\\_{1x}}{B\\_{0y}}\\\\right)\\\\biggr|\\_{\\\\pm a^{+}",
+                "present": false
+              },
+              {
+                "item": "B\\_{1x}",
+                "present": false
+              },
+              {
+                "item": "B\\_{1x}(\\\\pm b) = 0, B\\_{1x}(\\\\pm a^{-}) = B\\_{1x}(\\\\pm a^{+})",
+                "present": false
+              },
+              {
+                "item": "\\\\frac{\\\\partial}{\\\\partial x}\\\\left(B\\_{0y}^{2}\\\\frac{\\\\partial}{\\\\partial x}\\\\left(\\\\frac{B\\_{1x}}{B\\_{0y}}\\\\right)\\\\right)-k^{2}B\\_{0y}B\\_{1x} = 0",
+                "present": false
+              }
+            ]
+          },
+          "rubric_keyword_coverage": {
+            "hit_count": 0,
+            "item_count": 14,
+            "coverage": 0.0,
+            "items": [
+              {
+                "item": "partial",
+                "present": false
+              },
+              {
+                "item": "points",
+                "present": false
+              },
+              {
+                "item": "correctly",
+                "present": false
+              },
+              {
+                "item": "right",
+                "present": false
+              },
+              {
+                "item": "delta'",
+                "present": false
+              },
+              {
+                "item": "cases",
+                "present": false
+              },
+              {
+                "item": "obtains",
+                "present": false
+              },
+              {
+                "item": "rightarrow",
+                "present": false
+              },
+              {
+                "item": "infty",
+                "present": false
+              },
+              {
+                "item": "field",
+                "present": false
+              },
+              {
+                "item": "specifies",
+                "present": false
+              },
+              {
+                "item": "boundary",
+                "present": false
+              },
+              {
+                "item": "biggr",
+                "present": false
+              },
+              {
+                "item": "walls",
+                "present": false
+              }
+            ]
+          }
+        }
+      },
+      "overall_rubric_proxy_coverage": 0.0,
+      "problem_formula_coverage": 0.0,
+      "reference_formula_coverage": 0.0,
+      "rubric_keyword_coverage": 0.0
+    }
+  ],
+  "role_rows": [
+    {
+      "case_label": "anchor_real_q1_hq",
+      "role": "formal_deriver",
+      "count": 8,
+      "rendered_tokens": 87153,
+      "legacy_tokens": 153920,
+      "token_savings": 66767,
+      "token_savings_ratio": 0.4337772869022869,
+      "verified": 8,
+      "fail_soft": 0
+    },
+    {
+      "case_label": "anchor_real_q1_hq",
+      "role": "verification",
+      "count": 1,
+      "rendered_tokens": 27961,
+      "legacy_tokens": 27377,
+      "token_savings": -584,
+      "token_savings_ratio": -0.021331774847499724,
+      "verified": 1,
+      "fail_soft": 0
+    },
+    {
+      "case_label": "anchor_real_q1_hq",
+      "role": "writer",
+      "count": 4,
+      "rendered_tokens": 51090,
+      "legacy_tokens": 188140,
+      "token_savings": 137050,
+      "token_savings_ratio": 0.7284469012437547,
+      "verified": 4,
+      "fail_soft": 0
+    }
+  ]
+}

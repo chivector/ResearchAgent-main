@@ -1,0 +1,11 @@
+case,role,candidate,payload_verified,repair_rounds,selected_atom_count,graph_atom_count,rubric_atom_count,rendered_token_cost,full_graph_token_cost,token_savings,token_savings_ratio,gap_count,checks_passed,selected_view_kind,sections
+real_q1_writer,writer,minimal,True,0,24,25,24,901,4989,4088,0.8194,0,True,minimal,"problem_kernel,task_contract"
+real_q1_verification,verification,minimal,True,0,25,25,24,1895,5006,3111,0.6215,0,True,minimal,"archive,problem_kernel,task_contract"
+generic_formula_writer,writer,minimal,True,0,12,13,12,348,1968,1620,0.8232,0,True,minimal,"problem_kernel,task_contract"
+speculative_filter_writer,writer,minimal,True,0,8,9,4,185,1197,1012,0.8454,0,True,minimal,"evidence,problem_kernel,task_contract,warnings"
+support_repair_writer,writer,minimal,True,1,31,43,0,386,4860,4474,0.9206,0,True,repaired_minimal,"allowed_claims,evidence,problem_kernel,task_contract"
+dependency_repair_deriver,formal_deriver,minimal,True,1,26,38,0,350,4416,4066,0.9207,0,True,repaired_minimal,"derivations,problem_kernel"
+critic_signal_writer,writer,minimal,True,0,29,38,0,361,4362,4001,0.9172,0,True,minimal,"critic_findings,problem_kernel,task_contract"
+writer_material_sufficiency,writer,minimal,True,1,29,41,0,313,4628,4315,0.9324,0,True,repaired_minimal,"dependent_outputs,problem_kernel"
+verification_risk_visibility,verification,minimal,True,0,2,2,0,90,276,186,0.6739,0,True,minimal,"dependent_outputs,warnings"
+fail_soft_uncovered_obligation,writer,broad_fallback,False,3,2,2,0,77,262,185,0.7061,1,True,broad_fallback,"problem_kernel,task_contract"

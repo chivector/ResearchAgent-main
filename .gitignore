@@ -1,0 +1,67 @@
+# Python and environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and local config
+.env
+*.pem
+*.key
+
+# Caches and intermediate files
+*.cache/
+cache/
+logs/
+checkpoints/
+experiments/
+*.log
+
+# Large model artifacts
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Documentation build outputs
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+
+# Dataset temp files
+problems/**/images/*.tmp
+problems/**/images/*.cache
+
+# Script temp files
+run_scripts/*.log
+run_scripts/*.tmp
+
+# Backups
+*.bak
+*.old
+*~
+
+# Local assistant state
+.claude
+.log

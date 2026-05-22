@@ -1,0 +1,93 @@
+# ============================
+#  Python & Environment
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================
+#  Project-Specific: SciAgent
+# ============================
+# environment file (contains API keys)
+.env
+
+# cache or intermediate outputs
+*.cache/
+cache/
+logs/
+outputs/
+checkpoints/
+experiments/
+
+# Large model or tool-related artifacts
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# ============================
+#  Build / Packaging
+# ============================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ============================
+#  OS Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+#  Editors
+# ============================
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+
+# ============================
+#  Documentation
+# ============================
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+
+# ============================
+#  Dataset / Problems
+# ============================
+# (Keep problem markdown files, ignore generated temp files)
+problems/**/images/*.tmp
+problems/**/images/*.cache
+
+# ============================
+#  Shell scripts & misc
+# ============================
+run_scripts/*.log
+run_scripts/*.tmp
+
+# ============================
+#  Backups
+# ============================
+*.bak
+*.old
+*~
+
+
+.claude
+.log

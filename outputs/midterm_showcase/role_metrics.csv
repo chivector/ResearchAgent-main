@@ -1,0 +1,4 @@
+case_label,role,count,rendered_tokens,legacy_tokens,token_savings,token_savings_ratio,verified,fail_soft
+anchor_real_q1_hq,formal_deriver,8,87153,153920,66767,0.4338,8,0
+anchor_real_q1_hq,verification,1,27961,27377,-584,-0.0213,1,0
+anchor_real_q1_hq,writer,4,51090,188140,137050,0.7284,4,0

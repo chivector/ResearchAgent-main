@@ -1,0 +1,89 @@
+{
+  "overall_score_0_to_10": 9.2,
+  "verdict": "excellent",
+  "confidence_0_to_1": 0.98,
+  "requested_part_scores": [
+    {
+      "part": "Background Theory",
+      "score_0_to_1": 1.0,
+      "assessment": "All required points are covered: meter-ancilla coupling, postselection, Kraus operator, and impulsive Hamiltonian.",
+      "missing_or_wrong": []
+    },
+    {
+      "part": "Fisher information (part 1)",
+      "score_0_to_1": 1.0,
+      "assessment": "Compares I(g) and I'(g), defines efficiency factor η, gives correct formula for I'(g) in linear regime.",
+      "missing_or_wrong": []
+    },
+    {
+      "part": "Fisher Information (part 2)",
+      "score_0_to_1": 1.0,
+      "assessment": "States η can reach 1, nearly all Fisher info can be concentrated, remaining info in discarded states, gives σ_z example and Cramér-Rao bound.",
+      "missing_or_wrong": []
+    },
+    {
+      "part": "Proof Fisher Information - calculations",
+      "score_0_to_1": 0.95,
+      "assessment": "All key formulas and steps are present, but the explicit sum over d^n outcomes and some O(g) terms are not fully detailed.",
+      "missing_or_wrong": ["Explicit enumeration of d^n outcomes and their Fisher info formulas could be more detailed."]
+    },
+    {
+      "part": "Proof Fisher Information - preliminaries",
+      "score_0_to_1": 1.0,
+      "assessment": "All required formulas and statements are present, including the general QFI formula and reduction for the interaction Hamiltonian.",
+      "missing_or_wrong": []
+    },
+    {
+      "part": "Proof of results on improving efficiency by adding quantum resources to the ancilla",
+      "score_0_to_1": 0.95,
+      "assessment": "All maximization steps, formulas, and scaling results are present, but the explicit form of |Psi_f> after maximization could be more explicit.",
+      "missing_or_wrong": ["Explicit form of |Psi_f> after maximization could be more explicit."]
+    },
+    {
+      "part": "Summarises correctly the main results of the analysis",
+      "score_0_to_1": 1.0,
+      "assessment": "Both required summary points are clearly stated.",
+      "missing_or_wrong": []
+    },
+    {
+      "part": "Summary of results on improving efficiency by adding quantum resources to the ancilla",
+      "score_0_to_1": 1.0,
+      "assessment": "All required points about scaling and comparison are present.",
+      "missing_or_wrong": []
+    },
+    {
+      "part": "Weak value scaling",
+      "score_0_to_1": 1.0,
+      "assessment": "All formulas and scaling statements are present, including the maximum weak value and its dependence on variance and postselection probability.",
+      "missing_or_wrong": []
+    }
+  ],
+  "rubric_coverage": {
+    "background_protocol": 1.0,
+    "entanglement_efficiency": 0.95,
+    "fixed_postselection_alternative": 1.0,
+    "fisher_information": 1.0,
+    "conclusion": 1.0
+  },
+  "major_strengths": [
+    "All required formulas and derivations are present.",
+    "Clear explanation of the amplification/postselection tradeoff.",
+    "Correct scaling laws for entangled vs separable ancilla.",
+    "Quantum Fisher information comparison is explicit and correct.",
+    "Summary table concisely compares protocols."
+  ],
+  "major_omissions": [
+    "Explicit enumeration of d^n outcomes and their Fisher information formulas could be more detailed.",
+    "Explicit form of |Psi_f> after maximization could be more explicit."
+  ],
+  "mathematical_errors_or_risks": [
+    "No significant mathematical errors detected.",
+    "Minor risk: Some O(g) terms and explicit outcome enumeration are not fully detailed."
+  ],
+  "hallucination_or_irrelevance_risks": [
+    "No hallucinated claims.",
+    "All content is relevant and directly addresses the rubric."
+  ],
+  "token_payload_quality_note": "The answer is detailed, stepwise, and includes all required formulas, derivations, and protocol comparisons; it is sufficiently task-relevant and comprehensive.",
+  "recommended_next_payload_improvement": "Add explicit enumeration and calculation for the d^n postselection outcomes and their Fisher information contributions, and clarify the explicit form of the optimal postselection state |Psi_f>."
+}
